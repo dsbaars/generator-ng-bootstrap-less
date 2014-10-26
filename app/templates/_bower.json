@@ -1,9 +1,21 @@
 {
-  "name": "package",
-  "version": "0.0.0",
+  "name": "<%= _.slugify(pkgName) %>",
+  "version": "0.0.1",
+  "license": "proprietary",
+  "description": "",
+  "keywords": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
       "bootstrap": "3.2.0",
       "lodash": "~2.4.1",
-      "moment": "2.8.3"
+      "moment": "2.8.3",
+      "font-awesome": "4.2.0"
   }
 }

@@ -7,10 +7,19 @@ module.exports = (grunt,options) ->
     require('load-grunt-tasks')(grunt)
 
     grunt.registerTask('default', [
-        'useminPrepare',
-        'concat:generated',
-        'cssmin:generated',
-        'uglify:generated',
-        'filerev',
+        'notify_hooks'
+        'less'
+        'coffee'
+        'injector'
+        'connect'
+        'watch'
+    ])
+
+    grunt.registerTask('build-dist', [
+        'notify_hooks'
+        'useminPrepare'
+        'concat:generated'
+        'cssmin:generated'
+        'uglify:generated'
         'usemin'
     ])
