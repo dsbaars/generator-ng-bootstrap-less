@@ -4,8 +4,8 @@ module.exports =
         bare: true
     default:
         expand: true
-        flatten: false
+        flatten: true
         cwd: "app"
         src: ["**/*.coffee"]
-        dest: "app/js"
+        dest: "public/js"
         ext: ".js"

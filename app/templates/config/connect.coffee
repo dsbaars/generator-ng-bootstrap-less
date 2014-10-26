@@ -13,7 +13,7 @@ module.exports =
                 middlewares.push connect().use( '/bower_components', connect.static('./bower_components') )
 
                 middlewares.push rewriteModule.getMiddleware([
-                    from: "(^((?!javascripts|stylesheets|img|fonts|css|js/$).)*$)"
+                    from: "(^((?!javascripts|stylesheets|img|fonts|css|js$).)*$)"
                     to: "/index.html#$1"
                     ])
 

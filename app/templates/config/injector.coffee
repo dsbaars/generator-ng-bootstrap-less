@@ -6,5 +6,5 @@ module.exports = (grunt) ->
             'public/index.html': [
                 'bower.json'
                 'public/css/main.css'
-                'public/js/main.js'
+                'public/js/app.js'
             ]
