@@ -1,5 +1,7 @@
 # generator-ng-bootstrap-less [![Build Status](https://secure.travis-ci.org/dsbaars/generator-ng-bootstrap-less.png?branch=master)](https://travis-ci.org/dsbaars/generator-ng-bootstrap-less)
 
+Creates a combination of Bootstrap + LESS + CoffeeScript how I like it, you might like it too :)
+
 > [Yeoman](http://yeoman.io) generator
 
 
@@ -34,13 +36,6 @@ Finally, initiate the generator:
 ```bash
 yo ng-bootstrap-less
 ```
-
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
 
 ## License
 
