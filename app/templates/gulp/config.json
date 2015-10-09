@@ -1,0 +1,23 @@
+{
+    "less": {
+        "src": [
+            "./app/less/**/*.less",
+            "bower_components"
+        ],
+        "dest": "./public/css"
+    },
+    "coffee": {
+        "src": [
+            "./app/coffee/**/*.coffee"
+        ],
+        "dest": "./public/js"
+    },
+    "html": {
+        "index": "./public/index.html"
+    },
+    "server": {
+        "root": "./public",
+        "livereload": true,
+        "port": 9001
+    }
+}

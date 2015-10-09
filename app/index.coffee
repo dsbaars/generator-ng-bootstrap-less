@@ -27,6 +27,11 @@ NgBootstrapLessGenerator = yeoman.generators.Base.extend(
             done()
             return
         ).bind(this)
+
+        ###
+        # @todo Add prompt for grunt/gulp
+        ###
+
         return
 
     writing:
@@ -46,16 +51,12 @@ NgBootstrapLessGenerator = yeoman.generators.Base.extend(
         grunt: ->
             @src.copy "Gruntfile.coffee", "Gruntfile.coffee"
 
-            @dest.mkdir "config"
-            ret = glob(this.sourceRoot() + "/config/*.coffee", { }, (er, files) =>
-                for f in files
-                    do (f) =>
-                        src = path.relative(this.sourceRoot(), f)
-                        @src.copy src, src
+            @directory "config", "config"
+            return
 
-                return)
-
-
+        gulp: ->
+            @src.copy "gulpfile.js", "gulpfile.js"
+            @directory "gulp", "gulp"
             return
 
         public: ->

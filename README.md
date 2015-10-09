@@ -37,6 +37,27 @@ Finally, initiate the generator:
 yo ng-bootstrap-less
 ```
 
+### gulp
+If you want to use gulp instead of grunt, change the injector tags as below:
+
+Just before `</head>`
+```html
+<!-- build:css /css/app.dist.css -->
+<!-- bower:css -->
+<!-- endinject -->
+<!-- inject:css -->
+<!-- endinject -->
+<!-- endbuild -->
+```
+
+Just before `</body>`
+```html
+<!-- bower:js -->
+<!-- endinject -->
+<!-- inject:js -->
+<!-- endinject -->
+```
+
 ## License
 
 MIT

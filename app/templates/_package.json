@@ -5,6 +5,8 @@
     "description": "",
     "keywords": [],
     "dependencies": {
+    },
+    "devDependencies": {
         "grunt": ">=0.4.5",
         "grunt-coffeelint": ">=0.0.13",
         "grunt-contrib-clean": ">=0.6.0",
@@ -21,6 +23,21 @@
         "grunt-usemin": "^3.0.0",
         "http-rewrite-middleware": "^0.1.5",
         "load-grunt-configs": "^0.4.0",
-        "load-grunt-tasks": "^2.0.0"
+        "load-grunt-tasks": "^2.0.0",
+        "event-stream": "^3.3.1",
+        "gulp-connect": "^2.2.0",
+        "gulp-livereload": "^3.8.1",
+        "gulp": "^3.8.11",
+        "gulp-coffee": "^2.2.0",
+        "gulp-inject": "^3.0.0",
+        "gulp-less": "^3.0.3",
+        "gulp-notify": "^2.2.0",
+        "gulp-util": "^3.0.4",
+        "http-rewrite-middleware": "^0.1.5",
+        "load-grunt-configs": "^0.4.0",
+        "load-grunt-tasks": "^3.3.0",
+        "main-bower-files": "^2.9.0",
+        "require-dir": "^0.3.0",
+        "watchify": "^3.4.0"
     }
 }
